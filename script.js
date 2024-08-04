@@ -7,14 +7,11 @@ let currentWord = "";
 let currentPlayer = 1;
 const CLEAR_DATA_PASSWORD = "RDB";
 
-function loadCSV(event) {
-    const input = event.target;
-    const reader = new FileReader();
-    reader.onload = function() {
-        const text = reader.result;
-        parseCSV(text);
-    };
-    reader.readAsText(input.files[0]);
+function loadCSV() {
+    fetch('words.csv')
+        .then(response => response.text())
+        .then(text => parseCSV(text))
+        .catch(error => console.error('Error loading CSV:', error));
 }
 
 function parseCSV(text) {
@@ -188,6 +185,8 @@ function clearAllScores() {
     }
 }
 
-// Initialize the game
-initialize();
-getRandomWord();
+// Automatically load CSV file when the game is opened
+window.onload = function() {
+    loadCSV();
+    initialize();
+};
