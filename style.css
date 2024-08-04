@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('blackboard.jpg'); /* Path to your blackboard image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+}
+
+.game-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    color: #fff; /* White text color for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+}
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text color for buttons */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#feedback {
+    font-size: 1.2rem;
+}
+
+/* Center and style the score */
+#score-container {
+    text-align: center; /* Center the text */
+    font-size: 2rem; /* Make the score bigger */
+    color: yellow; /* Yellow text color */
+    background-color: black; /* Black background */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Flexbox container for buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+.button-container button {
+    flex: 1; /* Allow buttons to grow and take up equal space */
+    margin: 0 5px; /* Space between buttons */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('blackboard.jpg'); /* Path to your blackboard image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+}
+
+.game-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    color: #fff; /* White text color for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+}
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text color for buttons */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#feedback {
+    font-size: 1.2rem;
+}
+
+/* Center and style the score */
+#score-container {
+    text-align: center; /* Center the text */
+    font-size: 2rem; /* Make the score bigger */
+    color: yellow; /* Yellow text color */
+    background-color: black; /* Black background */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Flexbox container for buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+.button-container button {
+    flex: 1; /* Allow buttons to grow and take up equal space */
+    margin: 0 5px; /* Space between buttons */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('blackboard.jpg'); /* Path to your blackboard image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+}
+
+.game-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    color: #fff; /* White text color for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+}
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text color for buttons */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#feedback {
+    font-size: 1.2rem;
+}
+
+/* Center and style the score */
+#score-container {
+    text-align: center; /* Center the text */
+    font-size: 2rem; /* Make the score bigger */
+    color: yellow; /* Yellow text color */
+    background-color: black; /* Black background */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Flexbox container for buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+.button-container button {
+    flex: 1; /* Allow buttons to grow and take up equal space */
+    margin: 0 5px; /* Space between buttons */
+}

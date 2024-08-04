@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Spelling Game</h1>
+        <!-- File upload section -->
+        <label for="file-input">Upload CSV:</label>
+        <input type="file" id="file-input" accept=".csv" onchange="loadCSV(event)">
+        <br>
+        <!-- Player selection section -->
+        <label for="player-select">Select Player:</label>
+        <select id="player-select" onchange="changePlayer()">
+            <!-- Options for players 1-70, CLEAR DATA, and the default "Select Player" will be added by JavaScript -->
+        </select>
+        <br>
+        <p id="player-name">Player: Not selected</p>
+        <!-- Level selection section -->
+        <label for="level-select">Choose a level:</label>
+        <select id="level-select" onchange="changeLevel()">
+            <!-- Options for levels 1-6 and the default "Choose Level" will be added by JavaScript -->
+        </select>
+        <br>
+        <!-- Buttons container -->
+        <div class="button-container">
+            <button onclick="speakWord()">Speak</button>
+            <button onclick="nextWord()">Next Word</button>
+        </div>
+        <input type="text" id="spelling-input" placeholder="Type the word here">
+        <button onclick="checkSpelling()">Submit</button>
+        <p id="feedback"></p>
+        <div id="score-container">
+            Score: <span id="score">0</span>
+        </div>
+    </div>
+    <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
